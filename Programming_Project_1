@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+    const double EURO = 0.93;
+    const double AUD = 1.55;
+    const double YEN = 145.60;
+    const double INR = 82.56;
+cout << "Currency Converter - Convert US dollars to:" << endl;
+cout << "1. Euro" << endl;
+cout << "2. Australian Dollar" << endl;
+cout << "3. Japanese Yen" << endl;
+cout << "4. Indian Rupee" << endl;
+cout << "5. Quit program" << endl;
+cout << "Enter your choice (1-5): ";
+int choice;
+cin >> choice;
+cout << "Enter your amount in US dollars: ";
+double amountOfDollars;
+cin >> amountOfDollars;
+if (choice ==  )
+
+}
