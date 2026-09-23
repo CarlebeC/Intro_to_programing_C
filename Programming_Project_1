@@ -18,6 +18,23 @@ cin >> choice;
 cout << "Enter your amount in US dollars: ";
 double amountOfDollars;
 cin >> amountOfDollars;
-if (choice ==  )
-
+if (choice == 1) {
+    double amountOfEuros = amountOfDollars * EURO;
+cout << "$"<< amountOfDollars <<" would be " << amountOfEuros << " Euros" << endl; 
+}
+else if (choice == 2) {
+    double amountOfAUD = amountOfDollars * AUD;
+    cout << "$" << amountOfDollars << " would be " << amountOfAUD << " Australian Dollars" << endl;
+}
+else if (choice == 3) {
+    double amountOfYEN = amountOfDollars * YEN;
+    cout << "$" << amountOfDollars << " would be " << amountOfYEN << " Japanese Yen" << endl;
+}
+else if (choice == 4) {
+    double amountOfRupee = amountOfDollars * INR;
+    cout << "$" << amountOfDollars << " would be " << amountOfRupee << " Indian Rupee" << endl;
+}
+else {
+    cout << "Not a valid entry" << endl;
+}
 }
