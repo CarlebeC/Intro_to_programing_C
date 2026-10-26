@@ -20,7 +20,7 @@ int main(){
 do {
     //Package Choice
     while(true) {
-        cout << "Which package are you shopping for? (enter A, B, C)? " << endl;
+        cout << "Which package are you shopping for? (enter A, B, C): " << endl;
         cin >> package; 
         if (package == 'A' || package == 'a' ||
             package == 'B' || package == 'b' ||
@@ -33,7 +33,7 @@ do {
 
 //Message Units
 while (true) {
-    cout << "How many message units(1 - 672)? ";
+    cout << "How many message units? (1 - 672): ";
     cin >> messageUnits;
 
     if (messageUnits >= 1 && messageUnits <= 672) {
